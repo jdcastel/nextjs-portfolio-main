@@ -3,7 +3,6 @@
 import { useRef } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { HeadingDivider } from "components";
-import { TimeLine } from "./TimeLine";
 
 export function AboutSection() {
 	const ref = useRef(null);
@@ -33,8 +32,6 @@ export function AboutSection() {
 						</p>
 					</div>
 				</div>
-
-				<TimeLine />
 			</section>
 		</LazyMotion>
 	);

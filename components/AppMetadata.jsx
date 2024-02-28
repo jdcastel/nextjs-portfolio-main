@@ -10,7 +10,7 @@ export const AppMetadata = {
 	},
 	description: description,
 	icons: {
-		icon: "/favicon.png"
+		icon: "/JDLogo.png"
 	},
 	keywords: [
 		"Juan Castelblanco",
