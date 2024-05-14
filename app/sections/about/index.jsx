@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { HeadingDivider } from "components";
 
-export function AboutSection() {
+export function AboutSection() {	
 	const ref = useRef(null);
 	const isInView = useInView(ref, { once: true });
 
