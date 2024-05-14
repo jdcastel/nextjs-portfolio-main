@@ -8,7 +8,7 @@ export function ProjectsSection() {
 	const textRef = useRef(null);
 	const stackRef = useRef(null);
 	const isTextInView = useInView(textRef, { once: true });
-	const isStackInView = useInView(stackRef, { once: true });	
+	// const isStackInView = useInView(stackRef, { once: true });	
 	return (
 		<LazyMotion features={domAnimation}>
 			<section id="project" className="section">

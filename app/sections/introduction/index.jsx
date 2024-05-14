@@ -72,7 +72,7 @@ export function WelcomeSection() {
 									transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 								}}
 							>
-								I'm
+								I&apos;m
 								<span
 									className="absolute flex flex-col transition-all duration-500 ease-in-expo ml-6"
 									style={{

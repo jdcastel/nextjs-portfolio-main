@@ -6,10 +6,10 @@ import "react-vertical-timeline-component/style.min.css";
 import { GrMysql } from "react-icons/gr";
 
 export function ExperienceSection() {
-	const textRef = useRef(null);
-	const stackRef = useRef(null);
-	const isTextInView = useInView(textRef, { once: true });
-	const isStackInView = useInView(stackRef, { once: true });
+	// const textRef = useRef(null);
+	// const stackRef = useRef(null);
+	// const isTextInView = useInView(textRef, { once: true });
+	// const isStackInView = useInView(stackRef, { once: true });
 
 	return (
 		<LazyMotion features={domAnimation}>
