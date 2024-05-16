@@ -3,10 +3,12 @@ import { useRef } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { HeadingDivider } from "components";
 import Image from 'next/image'
+import { FaGithub } from "react-icons/fa";
+
 
 export function ProjectsSection() {
     const textRef = useRef(null);
-    const isTextInView = useInView(textRef, { once: true });
+    // const isTextInView = useInView(textRef, { once: true });
 
     const projects = [
         {
@@ -50,11 +52,11 @@ export function ProjectsSection() {
                                     />
                                 </div>
                                 <div className="p-4">
-                                    <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                                    <h3 className="text-xl font-bold mb-2 text-black">{project.title}</h3>
                                     <p
                                         ref={textRef}
                                         tabIndex="0"
-                                        className={`font-light text-lg ${isTextInView ? "opacity-100" : "opacity-0 transform -translate-x-8 transition-all duration-500 ease-in-out"}`}
+                                        className={`font-light text-lg text-black`}
                                     >
                                         {project.description}
                                     </p>
@@ -66,6 +68,10 @@ export function ProjectsSection() {
                             </a>
                         </div>
                     ))}
+                </div>
+                <div className="flex justify-center">
+                    <a href="https://github.com/jdcastel" target="_blank" rel="noopener noreferrer" 
+                    className="flex gap-2 items-center mt-4 px-4 py-2 bg-gray-500 text-white rounded-md transition duration-300 hover:bg-gray-600">More Projects on my Github <FaGithub size={32}/></a>
                 </div>
             </section>
         </LazyMotion>

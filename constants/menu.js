@@ -3,5 +3,5 @@ export const MENU_OPTIONS = [
 	{ id: "1", name: "About", url: "#about" },
 	{ id: "2", name: "Experience", url: "#experience" },
 	{ id: "3", name: "Tech", url: "#tech" },
-	{ id: "4", name: "Projects", url: "#projects" }
+	{ id: "4", name: "Projects", url: "#project" }
 ];
