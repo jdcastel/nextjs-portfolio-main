@@ -1,36 +1,22 @@
-## Getting Started
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Juan Castelblanco
+========================================================================================================================================
 
-### Steps to run the project
+Software Developer | Web application developer | Mobile developer
+--------------------------
 
-- Install dependencies:
+*   🌍  Toronto,Ontario
+*   🖥️  Click, my <a target="_blank" rel="noreferrer" href='https://personal-portfolio-beta-orpin.vercel.app/'>Portfolio</a> to see it!
+*   🧠  Currently learning Next.js
+*   🤝  I'm open to collaborating on interesting projects as a developer
 
-```bash
-npm install
-# or
-yarn
-```
+### Skills
 
-- **`!!! Make sure to have installed Sanity globally`**
-Check sanity docs for more info: https://www.sanity.io/docs/getting-started-with-sanity-cli
+<p align="left">
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a> &nbsp;
+<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a> &nbsp;
+ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a> &nbsp;
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" /></a> &nbsp; <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg" width="36" height="36" alt="Sass" /></a> &nbsp; <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="TailwindCSS" /></a> 
 
+### Socials
 
-- Create a file `.env.local` and put inside:
-
-1. NEXT_PUBLIC_SANITY_URL=""
-2. NEXT_PUBLIC_SANITY_LATEST_PROJECTS=""
-3. NEXT_PUBLIC_SANITY_ALL_PROJECTS=""
-4. NEXT_PUBLIC_SANITY_PROJECTS=""
-5. NEXT_PUBLIC_SANITY_PROJECT_BY_CATEGORY=""
-6. NEXT_PUBLIC_SANITY_TOKEN=""
-
-!!! Please, take into account that you need to create a token in Sanity Studio, and put it in NEXT_PUBLIC_SANITY_TOKEN.
-
-Also, the points from 2 to 5 are queries to get data from Sanity. It's up to you to create them. Otherwise, you can use your own queries.
-
-- Finally, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
+<p align="left"> <a href="https://www.linkedin.com/in/jdcastel/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> </p>
